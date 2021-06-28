@@ -5,6 +5,6 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m
-  url: https://github.com/argoproj/argo-rollouts/releases/latest/download/install.yaml
+  url: https://github.com/NiklasKuu/DevOpsWithKubernetes
   ref:
-    tag: 1.0.2
+    branch: master
