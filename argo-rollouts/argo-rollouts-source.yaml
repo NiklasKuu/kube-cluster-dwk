@@ -1,10 +1,10 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: GitRepository
 metadata:
-  name: example-repo
+  name: argo-rollouts-source
   namespace: flux-system
 spec:
-  interval: 10m
-  url: https://github.com/kubernetes-hy/material-example
+  interval: 1h
+  url: https://github.com/argoproj/argo-rollouts/
   ref:
-    branch: master
+    tag: 1.0.2
