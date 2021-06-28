@@ -4,7 +4,7 @@ metadata:
   name: argo-rollouts-source
   namespace: flux-system
 spec:
-  interval: 1h
+  interval: 1m
   url: https://github.com/argoproj/argo-rollouts/
   ref:
     tag: 1.0.2
