@@ -12,6 +12,7 @@ spec:
         kind: HelmRepository
         name: nats-repo
         namespace: flux-system
+      version: ">=0.8.0"
   releaseName: my-nats
   targetNamespace: default
   install:
